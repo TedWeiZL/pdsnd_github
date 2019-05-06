@@ -10,10 +10,10 @@ tasked to extract US bike share data in three US cities using *pandas*. By selec
 we can narrow down our analysis for various purposes.
 
 ### Files used
-explore bike share data.py
-chicago.csv
-washington.csv
-new_york_city.csv
+* explore bike share data.py
+* chicago.csv
+* washington.csv
+* new_york_city.csv
 
 ### Credits
 Credit to Udacity template repository at: https://github.com/udacity/pdsnd_github
