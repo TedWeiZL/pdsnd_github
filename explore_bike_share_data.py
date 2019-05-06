@@ -110,9 +110,11 @@ def station_stats(df):
     # TO DO: display most commonly used start station
     most_common_start_station=df['Start Station'].mode()[0]
     print('Most common start station is ',most_common_start_station,'\n')
+
     # TO DO: display most commonly used end station
     most_common_end_station=df['End Station'].mode()[0]
     print('Most common end station is ',most_common_end_station,'\n')
+
     # TO DO: display most frequent combination of start station and end station trip
     df2=df.copy()
     df2['COUNTER'] =1       #initially, set that counter to 1.
@@ -172,11 +174,12 @@ def user_stats(df):
 def see_rawdata(df):
 
     whether_to_see_rawdata=input('Would you like to see some raw data? Type \'yes\' or \'no\': ')
+    
     if whether_to_see_rawdata.lower()=='yes':
         i=1
         print(df.iloc[0:5*i])
         whether_to_see_more_raw_data=input("Would you like to see more raw data? Type 'yes' or 'no': ")
-        
+
         while whether_to_see_more_raw_data.lower()=='yes':
             i=i+1
             print(df.iloc[0:5*i])
