@@ -1,15 +1,20 @@
 ### Date created
-Include the date you created this project and README file.
+6 May 2019
 
 ### Project Title
-Replace the Project Title
+Exploring US bike share data
 
 ### Description
-Describe what your project is about and what it does
+This is one of the required projects in Udacity Nano-degree program, *programming for data science*. In this project, we are
+tasked to extract US bike share data in three US cities using *pandas*. By selecting specific *city*, *month*,and *day_of_the_week*
+we can narrow down our analysis for various purposes.
 
 ### Files used
-Include the files used
+explore bike share data.py
+chicago.csv
+washington.csv
+new_york_city.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Credit to Udacity template repository at: https://github.com/udacity/pdsnd_github
 
