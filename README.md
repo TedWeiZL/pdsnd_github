@@ -10,9 +10,9 @@ tasked to extract US bike share data in three US cities using *pandas*. By selec
 we can narrow down our analysis for various purposes.
 
 ### Files used
-explore bike share data.py \n
-chicago.csv \n 
-washington.csv \n
+explore bike share data.py 
+chicago.csv  
+washington.csv 
 new_york_city.csv
 
 ### Credits
